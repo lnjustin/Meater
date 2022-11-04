@@ -1,0 +1,23 @@
+{
+  "packageName": "Meater",
+  "author": "Justin Leonard",
+  "version": "0.1",
+  "minimumHEVersion": "2.1.9",
+  "dateReleased": "2022-11-04",
+  "drivers": [
+    {
+      "id": "13b01d92-8038-49ab-8b09-8587487d29f5",
+      "name": "Meater Container Device",
+      "namespace": "lnjustin",
+      "location": "https://raw.githubusercontent.com/lnjustin/Meater/main/meaterContainerDevice.groovy",
+      "required": true
+    },
+    {
+      "id": "381706ca-ebc9-486c-9d36-5a542c926839",
+      "name": "Meater Probe",
+      "namespace": "lnjustin",
+      "location": "https://raw.githubusercontent.com/lnjustin/Meater/main/meaterProbe.groovy",
+      "required": true
+    }
+  ]
+}
